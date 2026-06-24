@@ -1,0 +1,46 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "YOUR_DISCORD_CLIENT_ID",
+        "smallImageText": "Kalradia Craft Roleplay",
+        "smallImageKey": "seal-circle"
+    },
+    "java": {
+        "oracle": "https://www.oracle.com/java/technologies/downloads/"
+    },
+    "servers": [
+        {
+            "id": "kalradia-craft-1.20.1",
+            "name": "Kalradia Craft Roleplay",
+            "description": "Kalradia Craft Roleplay Sunucusu",
+            "icon": "https://via.placeholder.com/64",
+            "version": "1.0.0",
+            "address": "kalradiaroleplay.su.redstone.tr:45023",
+            "minecraftVersion": "1.20.1",
+            "javaVersion": {
+                "major": 17,
+                "minimum": 17,
+                "recommended": 17
+            },
+            "discord": {
+                "shortId": "Kalradia",
+                "largeImageText": "Kalradia Craft Roleplay",
+                "largeImageKey": "server-icon"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.minecraftforge:forge:1.20.1-47.4.10",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
+                    "artifact": {
+                        "size": 0,
+                        "MD5": "",
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
