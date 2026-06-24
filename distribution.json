@@ -1,13 +1,9 @@
 {
     "version": "1.0.0",
-    "discord": {
-        "clientId": "YOUR_DISCORD_CLIENT_ID",
-        "smallImageText": "Kalradia Craft Roleplay",
-        "smallImageKey": "seal-circle"
-    },
     "java": {
         "oracle": "https://www.oracle.com/java/technologies/downloads/"
     },
+    "rss": "https://raw.githubusercontent.com/gabrielsilvershop-boop/kalradiaroleplay/refs/heads/main/news.xml",
     "servers": [
         {
             "id": "kalradia-craft-1.20.1",
@@ -21,11 +17,6 @@
                 "major": 17,
                 "minimum": 17,
                 "recommended": 17
-            },
-            "discord": {
-                "shortId": "Kalradia",
-                "largeImageText": "Kalradia Craft Roleplay",
-                "largeImageKey": "server-icon"
             },
             "mainServer": true,
             "autoconnect": true,
