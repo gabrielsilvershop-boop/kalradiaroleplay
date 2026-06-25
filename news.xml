@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>KalradiaCraft Resmi Haberleri</title>
     <link>https://discord.gg/seninlinkin</link>
@@ -8,7 +8,8 @@
       <title>Yüce Meclis Toplanıyor!</title>
       <link>https://discord.gg/seninlinkin</link>
       <pubDate>Wed, 24 Jun 2026 12:00:00 GMT</pubDate>
-      <description>Geboria Krallığı'nın ev sahipliğinde gerçekleşecek olan diplomatik zirve için hazırlıklar başladı. Tüm elçilerin katılımı zorunludur.</description>
+      <dc:creator>KalradiaCraft</dc:creator>
+      <content:encoded><![CDATA[Geboria Krallığı'nın ev sahipliğinde gerçekleşecek olan diplomatik zirve için hazırlıklar başladı. Tüm elçilerin katılımı zorunludur.]]></content:encoded>
     </item>
   </channel>
 </rss>
